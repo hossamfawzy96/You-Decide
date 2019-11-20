@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F0712E12383172300127EFB /* DeckLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0712E02383172300127EFB /* DeckLayout.swift */; };
+		9F0712E52383268B00127EFB /* ChestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0712E42383268B00127EFB /* ChestCollectionViewCell.swift */; };
+		9F15A381236D7D3B0029A5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15A380236D7D3B0029A5AA /* AppDelegate.swift */; };
+		9F15A383236D7D3B0029A5AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15A382236D7D3B0029A5AA /* SceneDelegate.swift */; };
+		9F15A388236D7D3B0029A5AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F15A386236D7D3B0029A5AA /* Main.storyboard */; };
+		9F15A38A236D7D3D0029A5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F15A389236D7D3D0029A5AA /* Assets.xcassets */; };
+		9F15A38D236D7D3D0029A5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F15A38B236D7D3D0029A5AA /* LaunchScreen.storyboard */; };
+		9F15A3A1236D8BCA0029A5AA /* ClashRoyaleConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15A39E236D8BCA0029A5AA /* ClashRoyaleConvenience.swift */; };
+		9F15A3A2236D8BCA0029A5AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15A39F236D8BCA0029A5AA /* Constants.swift */; };
+		9F15A3A3236D8BCA0029A5AA /* ClashRoyaleClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15A3A0236D8BCA0029A5AA /* ClashRoyaleClient.swift */; };
+		9F15A3A9236D8CC80029A5AA /* PlayerTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15A3A8236D8CC80029A5AA /* PlayerTagViewController.swift */; };
+		9F397BF22378426C00A6410B /* StatsRoyaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F397BF12378426C00A6410B /* StatsRoyaleTableViewCell.swift */; };
+		9F397BF423787A6000A6410B /* ClanWarStatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F397BF323787A6000A6410B /* ClanWarStatsTableViewCell.swift */; };
+		9F408256237F4405002ECE0B /* ChestsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F408255237F4405002ECE0B /* ChestsLayout.swift */; };
+		9F408258237F4489002ECE0B /* ChestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F408257237F4489002ECE0B /* ChestsTableViewCell.swift */; };
+		9F4D992723733494000B7F50 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D992623733494000B7F50 /* DataController.swift */; };
+		9F4D992A23733578000B7F50 /* ClashRoyale.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D992823733578000B7F50 /* ClashRoyale.xcdatamodeld */; };
+		9F8CEB1A237AAAF200156C5E /* ClanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CEB19237AAAF200156C5E /* ClanTableViewCell.swift */; };
+		9F8CEB1C237AD6B700156C5E /* TabbedBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CEB1B237AD6B700156C5E /* TabbedBarViewController.swift */; };
+		9F8CEB1E237AE54000156C5E /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CEB1D237AE54000156C5E /* CardCollectionViewCell.swift */; };
+		9F8CEB20237B6BF900156C5E /* DeckTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CEB1F237B6BF900156C5E /* DeckTableViewCell.swift */; };
+		9F99E1F62378812F00B6232D /* ChallengeStatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F99E1F52378812F00B6232D /* ChallengeStatsTableViewCell.swift */; };
+		9F99E1F82378816500B6232D /* TournamentStatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F99E1F72378816500B6232D /* TournamentStatsTableViewCell.swift */; };
+		9F99E1FA2378819900B6232D /* FavouriteCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F99E1F92378819900B6232D /* FavouriteCardTableViewCell.swift */; };
+		9FD2380D2377E49800635189 /* SpinnerViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2380C2377E49800635189 /* SpinnerViewcontroller.swift */; };
+		9FD2380F2377E4A900635189 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2380E2377E4A900635189 /* AlertViewController.swift */; };
+		9FD238112377E91F00635189 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD238102377E91F00635189 /* ProfileViewController.swift */; };
+		9FD238132377E93700635189 /* ClanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD238122377E93700635189 /* ClanViewController.swift */; };
+		9FD238152377E94400635189 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD238142377E94400635189 /* SettingsViewController.swift */; };
+		9FD238172377EAE500635189 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD238162377EAE500635189 /* CardsViewController.swift */; };
+		9FD238192377EAF400635189 /* CardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD238182377EAF400635189 /* CardDetailsViewController.swift */; };
+		9FD2381E2377F4A700635189 /* PlayerInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2381D2377F4A700635189 /* PlayerInfoTableViewCell.swift */; };
+		9FD238202378383700635189 /* DataControllerSingelton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2381F2378383700635189 /* DataControllerSingelton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F0712E02383172300127EFB /* DeckLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckLayout.swift; sourceTree = "<group>"; };
+		9F0712E42383268B00127EFB /* ChestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F15A37D236D7D3B0029A5AA /* You Decide!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "You Decide!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F15A380236D7D3B0029A5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F15A382236D7D3B0029A5AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F15A387236D7D3B0029A5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F15A389236D7D3D0029A5AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F15A38C236D7D3D0029A5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F15A38E236D7D3D0029A5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F15A39E236D8BCA0029A5AA /* ClashRoyaleConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClashRoyaleConvenience.swift; sourceTree = "<group>"; };
+		9F15A39F236D8BCA0029A5AA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9F15A3A0236D8BCA0029A5AA /* ClashRoyaleClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClashRoyaleClient.swift; sourceTree = "<group>"; };
+		9F15A3A8236D8CC80029A5AA /* PlayerTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerTagViewController.swift; path = ../../../PlayerTagViewController.swift; sourceTree = "<group>"; };
+		9F397BF12378426C00A6410B /* StatsRoyaleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRoyaleTableViewCell.swift; sourceTree = "<group>"; };
+		9F397BF323787A6000A6410B /* ClanWarStatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanWarStatsTableViewCell.swift; sourceTree = "<group>"; };
+		9F408255237F4405002ECE0B /* ChestsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestsLayout.swift; sourceTree = "<group>"; };
+		9F408257237F4489002ECE0B /* ChestsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestsTableViewCell.swift; sourceTree = "<group>"; };
+		9F4D992623733494000B7F50 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		9F4D992923733578000B7F50 /* ClashRoyale.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClashRoyale.xcdatamodel; sourceTree = "<group>"; };
+		9F8CEB19237AAAF200156C5E /* ClanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanTableViewCell.swift; sourceTree = "<group>"; };
+		9F8CEB1B237AD6B700156C5E /* TabbedBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedBarViewController.swift; sourceTree = "<group>"; };
+		9F8CEB1D237AE54000156C5E /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F8CEB1F237B6BF900156C5E /* DeckTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckTableViewCell.swift; sourceTree = "<group>"; };
+		9F99E1F52378812F00B6232D /* ChallengeStatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeStatsTableViewCell.swift; sourceTree = "<group>"; };
+		9F99E1F72378816500B6232D /* TournamentStatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentStatsTableViewCell.swift; sourceTree = "<group>"; };
+		9F99E1F92378819900B6232D /* FavouriteCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCardTableViewCell.swift; sourceTree = "<group>"; };
+		9FD2380C2377E49800635189 /* SpinnerViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewcontroller.swift; sourceTree = "<group>"; };
+		9FD2380E2377E4A900635189 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		9FD238102377E91F00635189 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9FD238122377E93700635189 /* ClanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanViewController.swift; sourceTree = "<group>"; };
+		9FD238142377E94400635189 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9FD238162377EAE500635189 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		9FD238182377EAF400635189 /* CardDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsViewController.swift; sourceTree = "<group>"; };
+		9FD2381D2377F4A700635189 /* PlayerInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfoTableViewCell.swift; sourceTree = "<group>"; };
+		9FD2381F2378383700635189 /* DataControllerSingelton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataControllerSingelton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F15A37A236D7D3B0029A5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F0712E2238325B300127EFB /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				9FD2381D2377F4A700635189 /* PlayerInfoTableViewCell.swift */,
+				9F397BF12378426C00A6410B /* StatsRoyaleTableViewCell.swift */,
+				9F397BF323787A6000A6410B /* ClanWarStatsTableViewCell.swift */,
+				9F99E1F52378812F00B6232D /* ChallengeStatsTableViewCell.swift */,
+				9F99E1F72378816500B6232D /* TournamentStatsTableViewCell.swift */,
+				9F99E1F92378819900B6232D /* FavouriteCardTableViewCell.swift */,
+				9F8CEB19237AAAF200156C5E /* ClanTableViewCell.swift */,
+				9F8CEB1F237B6BF900156C5E /* DeckTableViewCell.swift */,
+				9F408257237F4489002ECE0B /* ChestsTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		9F0712E3238325CE00127EFB /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				9F8CEB1D237AE54000156C5E /* CardCollectionViewCell.swift */,
+				9F0712E42383268B00127EFB /* ChestCollectionViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		9F15A374236D7D3B0029A5AA = {
+			isa = PBXGroup;
+			children = (
+				9F15A37F236D7D3B0029A5AA /* You Decide! */,
+				9F15A37E236D7D3B0029A5AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F15A37E236D7D3B0029A5AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F15A37D236D7D3B0029A5AA /* You Decide!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F15A37F236D7D3B0029A5AA /* You Decide! */ = {
+			isa = PBXGroup;
+			children = (
+				9F15A3A7236D8C7E0029A5AA /* View */,
+				9F15A3A4236D8C250029A5AA /* Controller */,
+				9F15A39B236D8B9A0029A5AA /* Model */,
+				9F15A380236D7D3B0029A5AA /* AppDelegate.swift */,
+				9F15A382236D7D3B0029A5AA /* SceneDelegate.swift */,
+				9F15A389236D7D3D0029A5AA /* Assets.xcassets */,
+				9F15A38B236D7D3D0029A5AA /* LaunchScreen.storyboard */,
+				9F15A38E236D7D3D0029A5AA /* Info.plist */,
+			);
+			path = "You Decide!";
+			sourceTree = "<group>";
+		};
+		9F15A39B236D8B9A0029A5AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F15A39C236D8BA90029A5AA /* Clients */,
+				9F4D992623733494000B7F50 /* DataController.swift */,
+				9F4D992823733578000B7F50 /* ClashRoyale.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F15A39C236D8BA90029A5AA /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				9F15A39D236D8BB00029A5AA /* Clash Royale */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		9F15A39D236D8BB00029A5AA /* Clash Royale */ = {
+			isa = PBXGroup;
+			children = (
+				9F15A3A0236D8BCA0029A5AA /* ClashRoyaleClient.swift */,
+				9F15A39E236D8BCA0029A5AA /* ClashRoyaleConvenience.swift */,
+				9F15A39F236D8BCA0029A5AA /* Constants.swift */,
+			);
+			path = "Clash Royale";
+			sourceTree = "<group>";
+		};
+		9F15A3A4236D8C250029A5AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F15A3A8236D8CC80029A5AA /* PlayerTagViewController.swift */,
+				9FD2380C2377E49800635189 /* SpinnerViewcontroller.swift */,
+				9FD2380E2377E4A900635189 /* AlertViewController.swift */,
+				9FD238102377E91F00635189 /* ProfileViewController.swift */,
+				9FD238122377E93700635189 /* ClanViewController.swift */,
+				9FD238142377E94400635189 /* SettingsViewController.swift */,
+				9FD238162377EAE500635189 /* CardsViewController.swift */,
+				9FD238182377EAF400635189 /* CardDetailsViewController.swift */,
+				9FD2381F2378383700635189 /* DataControllerSingelton.swift */,
+				9F8CEB1B237AD6B700156C5E /* TabbedBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9F15A3A7236D8C7E0029A5AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F408254237F4397002ECE0B /* Layouts */,
+				9FD2381C2377F48E00635189 /* Cells */,
+				9F15A386236D7D3B0029A5AA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F408254237F4397002ECE0B /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				9F408255237F4405002ECE0B /* ChestsLayout.swift */,
+				9F0712E02383172300127EFB /* DeckLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		9FD2381C2377F48E00635189 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9F0712E3238325CE00127EFB /* CollectionView */,
+				9F0712E2238325B300127EFB /* TableView */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F15A37C236D7D3B0029A5AA /* You Decide! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F15A391236D7D3D0029A5AA /* Build configuration list for PBXNativeTarget "You Decide!" */;
+			buildPhases = (
+				9F15A379236D7D3B0029A5AA /* Sources */,
+				9F15A37A236D7D3B0029A5AA /* Frameworks */,
+				9F15A37B236D7D3B0029A5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "You Decide!";
+			productName = "You Decide!";
+			productReference = 9F15A37D236D7D3B0029A5AA /* You Decide!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F15A375236D7D3B0029A5AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Hossameldien Hamada";
+				TargetAttributes = {
+					9F15A37C236D7D3B0029A5AA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 9F15A378236D7D3B0029A5AA /* Build configuration list for PBXProject "You Decide!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F15A374236D7D3B0029A5AA;
+			productRefGroup = 9F15A37E236D7D3B0029A5AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F15A37C236D7D3B0029A5AA /* You Decide! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F15A37B236D7D3B0029A5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F15A38D236D7D3D0029A5AA /* LaunchScreen.storyboard in Resources */,
+				9F15A38A236D7D3D0029A5AA /* Assets.xcassets in Resources */,
+				9F15A388236D7D3B0029A5AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F15A379236D7D3B0029A5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0712E52383268B00127EFB /* ChestCollectionViewCell.swift in Sources */,
+				9FD238132377E93700635189 /* ClanViewController.swift in Sources */,
+				9FD238192377EAF400635189 /* CardDetailsViewController.swift in Sources */,
+				9F4D992723733494000B7F50 /* DataController.swift in Sources */,
+				9FD2380D2377E49800635189 /* SpinnerViewcontroller.swift in Sources */,
+				9F15A3A3236D8BCA0029A5AA /* ClashRoyaleClient.swift in Sources */,
+				9F408256237F4405002ECE0B /* ChestsLayout.swift in Sources */,
+				9F99E1FA2378819900B6232D /* FavouriteCardTableViewCell.swift in Sources */,
+				9FD2380F2377E4A900635189 /* AlertViewController.swift in Sources */,
+				9F15A3A9236D8CC80029A5AA /* PlayerTagViewController.swift in Sources */,
+				9F408258237F4489002ECE0B /* ChestsTableViewCell.swift in Sources */,
+				9F15A3A2236D8BCA0029A5AA /* Constants.swift in Sources */,
+				9F8CEB1C237AD6B700156C5E /* TabbedBarViewController.swift in Sources */,
+				9F0712E12383172300127EFB /* DeckLayout.swift in Sources */,
+				9FD238202378383700635189 /* DataControllerSingelton.swift in Sources */,
+				9F8CEB1A237AAAF200156C5E /* ClanTableViewCell.swift in Sources */,
+				9FD2381E2377F4A700635189 /* PlayerInfoTableViewCell.swift in Sources */,
+				9F99E1F62378812F00B6232D /* ChallengeStatsTableViewCell.swift in Sources */,
+				9FD238112377E91F00635189 /* ProfileViewController.swift in Sources */,
+				9FD238172377EAE500635189 /* CardsViewController.swift in Sources */,
+				9F15A381236D7D3B0029A5AA /* AppDelegate.swift in Sources */,
+				9F15A383236D7D3B0029A5AA /* SceneDelegate.swift in Sources */,
+				9F99E1F82378816500B6232D /* TournamentStatsTableViewCell.swift in Sources */,
+				9F8CEB1E237AE54000156C5E /* CardCollectionViewCell.swift in Sources */,
+				9FD238152377E94400635189 /* SettingsViewController.swift in Sources */,
+				9F397BF423787A6000A6410B /* ClanWarStatsTableViewCell.swift in Sources */,
+				9F397BF22378426C00A6410B /* StatsRoyaleTableViewCell.swift in Sources */,
+				9F15A3A1236D8BCA0029A5AA /* ClashRoyaleConvenience.swift in Sources */,
+				9F8CEB20237B6BF900156C5E /* DeckTableViewCell.swift in Sources */,
+				9F4D992A23733578000B7F50 /* ClashRoyale.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F15A386236D7D3B0029A5AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F15A387236D7D3B0029A5AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F15A38B236D7D3D0029A5AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F15A38C236D7D3D0029A5AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F15A38F236D7D3D0029A5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F15A390236D7D3D0029A5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F15A392236D7D3D0029A5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "You Decide!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HossameldienHamada.You-Decide-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F15A393236D7D3D0029A5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "You Decide!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HossameldienHamada.You-Decide-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F15A378236D7D3B0029A5AA /* Build configuration list for PBXProject "You Decide!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F15A38F236D7D3D0029A5AA /* Debug */,
+				9F15A390236D7D3D0029A5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F15A391236D7D3D0029A5AA /* Build configuration list for PBXNativeTarget "You Decide!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F15A392236D7D3D0029A5AA /* Debug */,
+				9F15A393236D7D3D0029A5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F4D992823733578000B7F50 /* ClashRoyale.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F4D992923733578000B7F50 /* ClashRoyale.xcdatamodel */,
+			);
+			currentVersion = 9F4D992923733578000B7F50 /* ClashRoyale.xcdatamodel */;
+			path = ClashRoyale.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F15A375236D7D3B0029A5AA /* Project object */;
+}
