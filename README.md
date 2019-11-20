@@ -13,6 +13,7 @@ The fifth portfolio app in Udacity's IOS Nanodegree. The app is a helper for the
 4. The user can switch to any of the other three views just by tapping their icons in the tab bar.
 5. In the Cards view the user can scroll vertically to view his current collection of cards and by tapping any card's image the respective Card details view will open to show the card's details.
 6. In the Settings view the user can toggle the autologout mode. autologout mode is on by default so every time the user opens the app will have to re-enter his player's tag. If the user set the autologout mode off then the app will not ask him to enter his player's tag unless the user logouts from the profile view.
+7. When the Card details view is presented the user can dismiss it by just swipping down the screen.
 # How to run:
 1. open Model > Clients > Clash Royale > Constants.swift
 2. In ClashRoyale Struct replace the APIKey = "KEY" with your API Key.
