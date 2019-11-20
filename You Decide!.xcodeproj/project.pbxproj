@@ -17,7 +17,6 @@
 		9F15A3A1236D8BCA0029A5AA /* ClashRoyaleConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15A39E236D8BCA0029A5AA /* ClashRoyaleConvenience.swift */; };
 		9F15A3A2236D8BCA0029A5AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15A39F236D8BCA0029A5AA /* Constants.swift */; };
 		9F15A3A3236D8BCA0029A5AA /* ClashRoyaleClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15A3A0236D8BCA0029A5AA /* ClashRoyaleClient.swift */; };
-		9F15A3A9236D8CC80029A5AA /* PlayerTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15A3A8236D8CC80029A5AA /* PlayerTagViewController.swift */; };
 		9F397BF22378426C00A6410B /* StatsRoyaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F397BF12378426C00A6410B /* StatsRoyaleTableViewCell.swift */; };
 		9F397BF423787A6000A6410B /* ClanWarStatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F397BF323787A6000A6410B /* ClanWarStatsTableViewCell.swift */; };
 		9F408256237F4405002ECE0B /* ChestsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F408255237F4405002ECE0B /* ChestsLayout.swift */; };
@@ -55,7 +54,6 @@
 		9F15A39E236D8BCA0029A5AA /* ClashRoyaleConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClashRoyaleConvenience.swift; sourceTree = "<group>"; };
 		9F15A39F236D8BCA0029A5AA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9F15A3A0236D8BCA0029A5AA /* ClashRoyaleClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClashRoyaleClient.swift; sourceTree = "<group>"; };
-		9F15A3A8236D8CC80029A5AA /* PlayerTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerTagViewController.swift; path = ../../../PlayerTagViewController.swift; sourceTree = "<group>"; };
 		9F397BF12378426C00A6410B /* StatsRoyaleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRoyaleTableViewCell.swift; sourceTree = "<group>"; };
 		9F397BF323787A6000A6410B /* ClanWarStatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanWarStatsTableViewCell.swift; sourceTree = "<group>"; };
 		9F408255237F4405002ECE0B /* ChestsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestsLayout.swift; sourceTree = "<group>"; };
@@ -178,7 +176,6 @@
 		9F15A3A4236D8C250029A5AA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9F15A3A8236D8CC80029A5AA /* PlayerTagViewController.swift */,
 				9FD2380C2377E49800635189 /* SpinnerViewcontroller.swift */,
 				9FD2380E2377E4A900635189 /* AlertViewController.swift */,
 				9FD238102377E91F00635189 /* ProfileViewController.swift */,
@@ -300,7 +297,6 @@
 				9F408256237F4405002ECE0B /* ChestsLayout.swift in Sources */,
 				9F99E1FA2378819900B6232D /* FavouriteCardTableViewCell.swift in Sources */,
 				9FD2380F2377E4A900635189 /* AlertViewController.swift in Sources */,
-				9F15A3A9236D8CC80029A5AA /* PlayerTagViewController.swift in Sources */,
 				9F408258237F4489002ECE0B /* ChestsTableViewCell.swift in Sources */,
 				9F15A3A2236D8BCA0029A5AA /* Constants.swift in Sources */,
 				9F8CEB1C237AD6B700156C5E /* TabbedBarViewController.swift in Sources */,
