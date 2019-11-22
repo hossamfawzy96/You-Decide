@@ -1,5 +1,5 @@
 # You-Decide
-The fifth portfolio app in Udacity's IOS Nanodegree. The app is a helper for the well known game Clash Royale. The app supplies players with review profile options, stats and upcoming chests.
+The sixth portfolio app in Udacity's IOS Nanodegree. The app is a helper for the well known game Clash Royale. The app supplies players with review profile options, stats and upcoming chests.
 # Features List:
 - Profile: Keeps track of all progress in the game. Players can review their stats, clan war stats, tournament stats, challenge stats, favourite card and current deck.
 - Clan: shows the player's current clan's details.
